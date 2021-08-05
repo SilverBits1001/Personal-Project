@@ -58,7 +58,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     let jumboHeight = document.getElementById("top-jumbotron").offsetHeight;
   if (document.body.scrollTop > jumboHeight || document.documentElement.scrollTop > jumboHeight) {
-    document.getElementById("nav-title").style.fontSize = "25px";
+    document.getElementById("nav-title").style.fontSize = "20px";
     document.getElementById("nav-title").style.visibility = "visible";
     document.getElementById("nav-title").style.opacity = "1";
   } else {
