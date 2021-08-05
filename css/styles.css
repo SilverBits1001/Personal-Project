@@ -5,11 +5,12 @@ body {
   font-weight: 300; }
 
 #nav-title {
-  font-size: 20;
+  font-size: 1px;
+  visibility: hidden;
   justify-content: left;
   font-weight: bold;
   opacity: 1;
-  transition: .4s;
+  transition: 0.4s;
   transition-timing-function: ease-out; }
 
 nav .navbar-title {
@@ -43,7 +44,9 @@ h1 {
   font-size: 6rem;
   text-shadow: 2px 1px 3px black; }
 
-h2, h3, .modal {
+h2,
+h3,
+.modal {
   font-family: "Montserrat", sans-serif;
   font-weight: 300; }
 
@@ -106,6 +109,26 @@ li {
 
 .modal-content {
   border-radius: 5% / 7%; }
+
+#faqSection {
+  background-color: #f8edeb; }
+
+.accordion h3 {
+  font-weight: 300; }
+
+.accordion .card {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none; }
+  .accordion .card .card-header {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center; }
+    .accordion .card .card-header h3 {
+      white-space: normal;
+      font-size: 1.25rem;
+      font-weight: 500; }
+  .accordion .card .card-body {
+    padding: 2rem 4rem 1rem;
+    background-color: rgba(255, 255, 255, 0.9); }
 
 /* Card Slide up Animation */
 @keyframes wipe-enter {
