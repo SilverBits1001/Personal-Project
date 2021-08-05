@@ -4,6 +4,17 @@ body {
 .jumbotron p {
   font-weight: 300; }
 
+#nav-title {
+  font-size: 25;
+  font-weight: bold;
+  opacity: 1;
+  transition: .4s;
+  transition-timing-function: ease-out; }
+
+nav .navbar-title {
+  font-size: 25px;
+  font-weight: 500; }
+
 #logo {
   background-color: black;
   border-radius: 10%;
