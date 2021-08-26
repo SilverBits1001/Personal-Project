@@ -108,6 +108,16 @@ li {
   color: black;
 }
 
+#contactUs{
+  background-color: white;
+  margin: 3rem;
+  padding: 3rem;
+  border-radius: 1% / 3%;
+  font-family: $title-font;
+  box-shadow: inset 0px 0px 10px rgb(190, 190, 190);
+  
+}
+
 .modal-newesletter {
   color: #999;
   width: 625px;
@@ -118,6 +128,7 @@ li {
 .modal-content {
   padding: 30px;
 }
+
 
 .card .plant-back {
   display: none;
@@ -137,10 +148,29 @@ li {
 .modal-content {
   border-radius: 5% / 7%;
 }
+.cardShadow{
+  box-shadow: inset 0px 6px 8px -3px rgba(92, 60, 60, 0.2), inset 0px -6px 8px -3px rgba(0, 0, 0, 0.2); 
+  z-index: 1000;
 
+}
+
+#cardSection{
+    overflow: hidden;
+
+
+    
+}
+
+.smooth-scroll{
+    scroll-behavior: smooth;
+}
 
 #faqSection{
     background-color: #f8edeb;
+    //box-shadow: inset 00px 0px 5px 1px rgb(212, 202, 202);
+
+
+
 }
 
 .accordion {
@@ -152,6 +182,7 @@ li {
 
   .card {
     background-color: rgba(255, 255, 255, 0.6);
+    
       
     border: none;
 
@@ -160,11 +191,16 @@ li {
       background-color: rgba(255, 255, 255, 0);
       text-align: center;
 
+      .btn-link{
+        text-decoration:none;
+      }
+
 
       h3 {
         white-space: normal;
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: 500;
+        
       }
 
     }
